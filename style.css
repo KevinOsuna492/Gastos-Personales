@@ -1,0 +1,22 @@
+/* Estilos adicionales para simular interfaz móvil fluida */
+html {
+    height: 100%;
+}
+
+body {
+    overscroll-behavior-y: none;
+}
+
+/* Ocultar barra de desplazamiento pero permitir scroll */
+#main-scroll::-webkit-scrollbar {
+    display: none;
+}
+#main-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::selection {
+    background-color: #10b981;
+    color: #030712;
+}
